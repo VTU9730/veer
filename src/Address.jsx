@@ -1,7 +1,10 @@
+import { useContext } from "react";
+import appContext from "./context";
 function Address(){
+    const {user,setUser} =useContext(appContext)
     return(
         <div>
-            Address details
+            {user} Address details
         </div>
     )
 }
