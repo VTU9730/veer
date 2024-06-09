@@ -12,7 +12,7 @@ function Address(){
             {app} Address details 
             <p>First name: {user.firstName}</p>
             <p>Last name: {user.lastName}</p>
-            <p>Education: {user.education}</p>
+            
         </div>
     )
 }
