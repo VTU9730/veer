@@ -1,5 +1,5 @@
 import { useContext, useRef } from "react";
-import appContext,{userContext} from "./context";
+import appContext,{userContext} from "../context/context";
 function Address(){
     const {app,setApp} = useContext(appContext)
     const {user,setUser} = useContext(userContext) 
